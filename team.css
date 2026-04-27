@@ -1,22 +1,70 @@
+/* team.css */
+
+body {
+    background-color: #d7d1d1;
+    font-family: Georgia, serif;
+    margin: 0;
+}
+
+/* Top bar */
+.top-bar {
+    height: 90px;
+    background-color: #6b1f1f;
+}
+
+/* Sidebar nav */
 li {
-  list-style-type: none;
-  /* 1. Remove 'float: left' to stack items vertically */
-  float: none; 
-  /* 2. Set a reasonable width (e.g., 200px or 100% of container) */
-  width: 200px; 
-  /* 3. Change right border to bottom border for vertical separation */
-  border-bottom: 1px solid white; 
+    list-style-type: none;
+    width: 160px;
+    border: 1px solid #5b4a1c;
 }
 
 li a {
-  display: block;
-  color: white;
-  padding: 20px;
-  text-align: center;
-  background-color: rgb(217, 152, 68);
-  text-decoration: none;
+    display: block;
+    background-color: #c8b26a;
+    color: black;
+    text-align: center;
+    padding: 14px;
+    text-decoration: none;
+    font-size: 20px;
 }
 
 li a:hover {
-  background-color: black;
+    background-color: #a8924f;
+}
+
+/* Main content area */
+.main-section {
+    padding-left: 40px;
+}
+
+.page-title {
+    font-size: 52px;
+    font-weight: bold;
+    margin-bottom: 30px;
+}
+
+/* Member cards */
+.member-box {
+    background-color: #eeeeee;
+    padding: 10px 20px;
+}
+
+.member-box h2 {
+    font-size: 34px;
+    margin: 0;
+    font-weight: normal;
+}
+
+.member-box p {
+    font-size: 26px;
+    margin: 0;
+}
+
+/* Member image */
+.member-img {
+    width: 95px;
+    height: 110px;
+    object-fit: cover;
+    border: 6px solid #7b2323;
 }
