@@ -1,0 +1,14 @@
+li {
+    list-style-type: none;
+    float: left;
+    border-right-color: white;
+    border-right-width: 1px;
+    border-right-style: solid;
+}
+li a {
+    display: block;
+    color: white;
+    padding: 20px;
+    text-align: center;
+    background-color: burlywood;
+}
