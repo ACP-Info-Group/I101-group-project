@@ -1,17 +1,78 @@
+/* progress.css */
+
+body {
+    background-color: #d7d1d1;
+    font-family: Georgia, serif;
+    margin: 0;
+}
+
+/* Top bar */
+.top-bar {
+    height: 90px;
+    background-color: #6b1f1f;
+}
+
+/* Sidebar nav */
 li {
     list-style-type: none;
-    float: left;
-    border-right-color: white;
-    border-right-width: 1px;
-    border-right-style: solid;
+    width: 160px;
+    border: 1px solid #5b4a1c;
 }
+
 li a {
     display: block;
-    color: white;
-    padding: 20px;
+    background-color: #c8b26a;
+    color: black;
     text-align: center;
-    background-color: rgb(217, 152, 68);
+    padding: 14px;
+    text-decoration: none;
+    font-size: 20px;
 }
+
 li a:hover {
-    background-color: black;
+    background-color: #a8924f;
+}
+
+/* Main content area */
+.main-section {
+    padding-left: 40px;
+}
+
+.page-title {
+    font-size: 52px;
+    font-weight: bold;
+    margin-bottom: 30px;
+}
+
+/* Project Grid */
+.project-grid {
+    margin-top: 20px;
+}
+
+.project-item {
+    padding: 15px;
+}
+
+.project-box {
+    background-color: #eeeeee;
+    padding: 30px 20px;
+    min-height: 120px;
+    border: 2px solid #5b4a1c;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+}
+
+.project-box h3 {
+    font-size: 20px;
+    font-weight: bold;
+    margin: 0 0 10px 0;
+    color: black;
+}
+
+.project-box .status {
+    font-size: 16px;
+    margin: 0;
+    color: #666;
+    font-style: italic;
 }
