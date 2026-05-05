@@ -1,118 +1,18 @@
-<<<<<<< HEAD
-/* Reset defaults */
-* {
-    box-sizing: border-box;
-    margin: 0;
-    padding: 0;
-}
+/* Cleaned and unified innovater.css - based on team.css */
 
-body {
-    background-color: #f4f4f4; /* Light gray outer background */
-    font-family: "Times New Roman", Times, serif; /* Matches the serif font in mockup */
-    display: flex;
-    justify-content: center;
-}
-
-/* Main document container */
-.page-container {
-    width: 100%;
-    max-width: 900px; /* Constrains width like a piece of paper */
-    background-color: #b9afa6; /* The main grayish-tan background */
-    min-height: 100vh;
-    box-shadow: 0px 4px 10px rgba(0, 0, 0, 0.1);
-}
-
-/* Top maroon bar */
-.top-bar {
-    height: 45px;
-    background-color: #7a2529;
-    width: 100%;
-}
-
-/* Header layout containing nav, images, and title */
-.header-section {
-    display: flex;
-    position: relative;
-    padding: 25px 60px 25px 120px; /* Extra left padding to make room for absolute nav */
-    align-items: center;
-    border-bottom: none;
-}
-
-/* Navigation Menu */
-.nav-menu {
-    position: absolute;
-    top: 0;
-    left: 0;
-    list-style-type: none;
-    width: 85px;
-    border-right: 1px solid #333;
-    border-bottom: 1px solid #333;
-}
-
-.nav-menu li {
-    border-bottom: 1px solid #333;
-}
-
-.nav-menu li:last-child {
-    border-bottom: none;
-}
-
-.nav-menu a {
-    display: block;
-    text-decoration: none;
-    color: #000;
-    background-color: #cca86b; /* Tan gold color */
-    padding: 6px 10px;
-    font-family: Arial, sans-serif; /* Nav menu is sans-serif in mockup */
-    font-size: 13px;
-    text-align: center;
-}
-
-.nav-menu a:hover {
-    background-color: #b59258;
-}
-
-/* Header Content (Images and Title) */
-.header-content {
-    display: flex;
-    width: 100%;
-    align-items: center;
-    justify-content: space-between;
-}
-
-.header-img {
-    width: 110px;
-    height: 110px;
-    object-fit: cover;
-}
-
-.title-area {
-    text-align: center;
-    flex-grow: 1;
-}
-
-.title-area h1 {
-    font-size: 32px;
-=======
 body {
     background-color: #d7d1d1;
     font-family: Georgia, serif;
     margin: 0;
 }
 
+/* Top maroon bar */
 .top-bar {
     height: 90px;
     background-color: #6b1f1f;
 }
 
-.page-shell {
-    max-width: 1200px;
-}
-
-.sidebar {
-    padding-right: 0;
-}
-
+/* Sidebar / navigation list */
 li {
     list-style-type: none;
     width: 160px;
@@ -139,95 +39,43 @@ li a.active {
     padding-left: 40px;
 }
 
-.hero-box,
-.content-card {
+.page-title {
+    font-size: 52px;
+    font-weight: bold;
+    margin-bottom: 30px;
+}
+
+/* Member / content cards */
+.member-box,
+.content-card,
+.hero-box {
     background-color: #eeeeee;
     padding: 16px 20px;
 }
 
-.hero-image {
-    max-height: 150px;
-    width: auto;
-    object-fit: cover;
-}
-
-.eyebrow {
-    font-size: 22px;
-    font-weight: 700;
-}
-
-.page-title {
-    font-size: 52px;
->>>>>>> ebb47da (fixed innovator page?)
-    font-weight: bold;
-    margin-bottom: 4px;
-}
-
-<<<<<<< HEAD
-.title-area h2 {
-    font-size: 26px;
+.member-box h2,
+.content-card h2 {
+    font-size: 28px;
+    margin: 0 0 8px 0;
     font-weight: normal;
 }
 
-/* Main Content Text Blocks */
-.content-wrapper {
-    padding: 0 40px 40px 40px;
-}
-
-.info-card {
-    background-color: #ded7ce; /* Light grayish-beige for text boxes */
-    padding: 15px 25px;
-    margin-bottom: 20px;
-}
-
-.info-card strong {
-    display: block;
-    font-size: 15px;
-    margin-bottom: 5px;
-}
-
-.info-card p {
-    font-size: 13.5px;
-    line-height: 1.4;
-    text-indent: 30px; /* Matches the paragraph indentation */
-    margin-bottom: 10px;
-}
-
-.info-card p:last-child {
-    margin-bottom: 0;
-}
-
-/* Footer Link */
-.footer-link {
-    text-align: center;
-    margin-top: 30px;
-    padding-bottom: 20px;
-}
-
-.footer-link a {
-    font-size: 24px;
-    font-weight: bold;
-    color: #111;
-    text-decoration: none;
-    letter-spacing: 1px;
-}
-
-.footer-link a:hover {
-    text-decoration: underline;
-=======
-.subtitle {
-    font-size: 20px;
-}
-
-.content-card h2 {
-    font-size: 28px;
-    margin-bottom: 10px;
-}
-
+.member-box p,
 .content-card p {
     font-size: 18px;
+    margin: 0;
     line-height: 1.4;
-    margin-bottom: 12px;
+}
+
+.member-img,
+.hero-image {
+    width: auto;
+    max-height: 150px;
+    object-fit: cover;
+}
+
+.subtitle {
+    font-size: 20px;
 }
 
 .references-link {
@@ -235,7 +83,7 @@ li a.active {
 }
 
 .references-link a {
-    color: #1d1d1d;
+    color: #1d1d1c;
     font-size: 28px;
     text-decoration: none;
     letter-spacing: 0.5px;
@@ -262,5 +110,4 @@ li a.active {
     .references-link a {
         font-size: 22px;
     }
->>>>>>> ebb47da (fixed innovator page?)
 }
