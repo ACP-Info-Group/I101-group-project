@@ -12,6 +12,104 @@ body {
     background-color: #6b1f1f;
 }
 
+/* Page container to mimic centered paper */
+.page-container {
+    max-width: 900px;
+    margin: 0 auto;
+    background-color: #b9afa6;
+    padding: 0 24px 40px 24px;
+    box-shadow: 0 2px 0 rgba(0,0,0,0.06) inset;
+}
+
+/* Header layout containing nav, images, and title (wireframe) */
+.header-section {
+    padding: 18px 0;
+}
+
+.header-content {
+    align-items: center;
+}
+
+.header-img {
+    width: 90px;
+    height: 90px;
+    object-fit: cover;
+    border: 6px solid #7b2323;
+    background: #fff;
+}
+
+.title-area h1 {
+    font-size: 36px;
+    margin: 0 0 6px 0;
+    font-weight: bold;
+}
+
+.title-area h2 {
+    font-size: 20px;
+    margin: 0;
+}
+
+/* Narrow vertical nav used on the innovator wireframe */
+.nav-menu {
+    width: 90px;
+    padding: 0;
+}
+
+.nav-menu li {
+    border-bottom: 1px solid #5b4a1c;
+    width: 90px; /* override global li width for this nav */
+}
+
+.nav-menu a {
+    display: block;
+    background-color: #c8b26a;
+    color: black;
+    text-align: center;
+    padding: 10px 6px;
+    text-decoration: none;
+    font-size: 14px;
+}
+
+.nav-menu a.active,
+.nav-menu a:hover {
+    background-color: #a8924f;
+}
+
+/* Info card style closer to wireframe (thin border, inner pale box) */
+.content-card {
+    background-color: #eeeeee;
+    padding: 18px 20px;
+    border: 6px solid #d0cdca;
+    margin-bottom: 18px;
+}
+
+.content-card h2 {
+    font-size: 15px;
+    font-weight: bold;
+    margin-bottom: 10px;
+}
+
+.content-card p {
+    font-size: 13px;
+    line-height: 1.18;
+    text-indent: 18px;
+}
+
+/* Footer references CTA */
+.references-cta {
+    text-align: center;
+    padding: 18px 0 28px;
+    font-size: 22px;
+    font-family: Georgia, serif;
+}
+
+.references-cta a {
+    color: #1d1d1c;
+    text-decoration: none;
+}
+
+.references-cta a:hover { text-decoration: underline; }
+
 /* Sidebar / navigation list */
 li {
     list-style-type: none;
