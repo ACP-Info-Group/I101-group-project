@@ -19,3 +19,7 @@ li a:hover {
 body{
     background-color:#BEB7B5;
 }
+.top-bar {
+    height: 90px;
+    background-color: #6b1f1f;
+}
