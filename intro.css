@@ -1,21 +1,22 @@
 li {
-  list-style-type: none;
-  float: none; 
-  width: 200px; 
-  border-bottom: 1px solid white; 
+    list-style-type: none;
+    width: 160px;
+    border: 1px solid #5b4a1c;
 }
 
 li a {
-  display: block;
-  color: white;
-  padding: 20px;
-  text-align: center;
-  background-color: #c8b26a;
-  text-decoration: none;
+    display: block;
+    background-color: #c8b26a;
+    color: black;
+    text-align: center;
+    padding: 14px;
+    text-decoration: none;
+    font-size: 20px;
 }
 
 li a:hover {
-  background-color: black;
+    background-color: #a8924f;
+
 }
 body{
     background-image: url(images/kathrerineJohnsonPicture.jpg);
