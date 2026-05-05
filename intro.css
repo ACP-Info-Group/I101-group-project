@@ -1,10 +1,7 @@
 li {
   list-style-type: none;
-  /* 1. Remove 'float: left' to stack items vertically */
   float: none; 
-  /* 2. Set a reasonable width (e.g., 200px or 100% of container) */
   width: 200px; 
-  /* 3. Change right border to bottom border for vertical separation */
   border-bottom: 1px solid white; 
 }
 
