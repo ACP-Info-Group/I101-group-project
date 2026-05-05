@@ -1,3 +1,4 @@
+<<<<<<< HEAD
 /* Reset defaults */
 * {
     box-sizing: border-box;
@@ -92,10 +93,77 @@ body {
 
 .title-area h1 {
     font-size: 32px;
+=======
+body {
+    background-color: #d7d1d1;
+    font-family: Georgia, serif;
+    margin: 0;
+}
+
+.top-bar {
+    height: 90px;
+    background-color: #6b1f1f;
+}
+
+.page-shell {
+    max-width: 1200px;
+}
+
+.sidebar {
+    padding-right: 0;
+}
+
+li {
+    list-style-type: none;
+    width: 160px;
+    border: 1px solid #5b4a1c;
+}
+
+li a {
+    display: block;
+    background-color: #c8b26a;
+    color: black;
+    text-align: center;
+    padding: 14px;
+    text-decoration: none;
+    font-size: 20px;
+}
+
+li a:hover,
+li a.active {
+    background-color: #a8924f;
+    color: black;
+}
+
+.main-section {
+    padding-left: 40px;
+}
+
+.hero-box,
+.content-card {
+    background-color: #eeeeee;
+    padding: 16px 20px;
+}
+
+.hero-image {
+    max-height: 150px;
+    width: auto;
+    object-fit: cover;
+}
+
+.eyebrow {
+    font-size: 22px;
+    font-weight: 700;
+}
+
+.page-title {
+    font-size: 52px;
+>>>>>>> ebb47da (fixed innovator page?)
     font-weight: bold;
     margin-bottom: 4px;
 }
 
+<<<<<<< HEAD
 .title-area h2 {
     font-size: 26px;
     font-weight: normal;
@@ -146,4 +214,53 @@ body {
 
 .footer-link a:hover {
     text-decoration: underline;
+=======
+.subtitle {
+    font-size: 20px;
+}
+
+.content-card h2 {
+    font-size: 28px;
+    margin-bottom: 10px;
+}
+
+.content-card p {
+    font-size: 18px;
+    line-height: 1.4;
+    margin-bottom: 12px;
+}
+
+.references-link {
+    padding: 16px 0 30px;
+}
+
+.references-link a {
+    color: #1d1d1d;
+    font-size: 28px;
+    text-decoration: none;
+    letter-spacing: 0.5px;
+}
+
+.references-link a:hover {
+    text-decoration: underline;
+}
+
+@media (max-width: 767.98px) {
+    .main-section {
+        padding-left: 0;
+        margin-top: 20px;
+    }
+
+    li {
+        width: 100%;
+    }
+
+    .page-title {
+        font-size: 38px;
+    }
+
+    .references-link a {
+        font-size: 22px;
+    }
+>>>>>>> ebb47da (fixed innovator page?)
 }
