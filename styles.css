@@ -1,0 +1,203 @@
+/* =====================================================
+   COMBINED STYLESHEET - All page styles unified
+   ===================================================== */
+
+/* ========== GLOBAL STYLES ========== */
+body {
+    background-color: #d7d1d1;
+    font-family: Georgia, serif;
+    margin: 0;
+}
+
+/* Top bar */
+.top-bar {
+    height: 90px;
+    background-color: #6b1f1f;
+}
+
+/* ========== LIST/NAVIGATION STYLES ========== */
+li {
+    list-style-type: none;
+    width: 160px;
+    border: 1px solid #5b4a1c;
+}
+
+li a {
+    display: block;
+    background-color: #c8b26a;
+    color: black;
+    text-align: center;
+    padding: 14px;
+    text-decoration: none;
+    font-size: 20px;
+}
+
+li a:hover {
+    background-color: #a8924f;
+}
+
+/* ========== INTRO/INDEX PAGE (Background image) ========== */
+body.intro-page {
+    background-image: url(images/kathrerineJohnsonPicture.jpg);
+    background-size: cover;
+    background-position: center;
+    background-repeat: no-repeat;
+    background-attachment: fixed;
+    min-height: 100vh;
+}
+
+/* ========== INNOVATOR PAGE STYLES ========== */
+.page-container {
+    max-width: 900px;
+    margin: 0 auto;
+    background-color: #b9afa6;
+    padding: 0 24px 40px 24px;
+    box-shadow: 0 2px 0 rgba(0,0,0,0.06) inset;
+}
+
+.header-section {
+    padding: 18px 0;
+}
+
+.header-content {
+    align-items: center;
+}
+
+.header-img {
+    width: 90px;
+    height: 90px;
+    object-fit: cover;
+    border: 6px solid #7b2323;
+    background: #fff;
+}
+
+.title-area h1 {
+    font-size: 36px;
+    margin: 0 0 6px 0;
+    font-weight: bold;
+}
+
+.title-area h2 {
+    font-size: 20px;
+    margin: 0;
+}
+
+/* Narrow vertical nav used on the innovator page */
+.nav-menu {
+    width: 90px;
+    padding: 0;
+}
+
+.nav-menu li {
+    border-bottom: 1px solid #5b4a1c;
+    width: 90px;
+}
+
+.nav-menu a {
+    display: block;
+    background-color: #c8b26a;
+    color: black;
+    text-align: center;
+    padding: 10px 6px;
+    text-decoration: none;
+    font-size: 14px;
+}
+
+.nav-menu a.active,
+.nav-menu a:hover {
+    background-color: #a8924f;
+}
+
+/* Info card style */
+.content-card {
+    background-color: #eeeeee;
+    padding: 18px 20px;
+    border: 6px solid #d0cdca;
+    margin-bottom: 18px;
+}
+
+.content-card h2 {
+    font-size: 15px;
+    font-weight: bold;
+    margin-bottom: 10px;
+}
+
+.content-card p {
+    font-size: 13px;
+    line-height: 1.18;
+    text-indent: 18px;
+}
+
+/* ========== PROGRESS PAGE STYLES ========== */
+.page-title {
+    font-size: 52px;
+    font-weight: bold;
+    margin-bottom: 30px;
+}
+
+.main-section {
+    padding-left: 40px;
+}
+
+/* Project Grid */
+.project-grid {
+    margin-top: 20px;
+}
+
+.project-item {
+    padding: 15px;
+}
+
+.project-box {
+    background-color: #d7d1d1;
+    padding: 30px 20px;
+    min-height: 120px;
+    border: 2px solid #5b4a1c;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+}
+
+.project-box h3 {
+    font-size: 20px;
+    font-weight: bold;
+    margin: 0 0 10px 0;
+    color: black;
+}
+
+.project-box .status {
+    font-size: 16px;
+    margin: 0;
+    color: #666;
+    font-style: italic;
+}
+
+/* ========== TEAM PAGE STYLES ========== */
+.member-box {
+    background-color: #eeeeee;
+    padding: 10px 20px;
+}
+
+.member-box h2 {
+    font-size: 34px;
+    margin: 0;
+    font-weight: normal;
+}
+
+.member-box p {
+    font-size: 26px;
+    margin: 0;
+}
+
+/* Member image */
+.member-img {
+    width: 95px;
+    height: 110px;
+    object-fit: cover;
+    border: 6px solid #7b2323;
+}
+
+/* ========== PROGRESS PAGE BACKGROUND ========== */
+body.progress-page {
+    background-color: #BEB7B5;
+}
