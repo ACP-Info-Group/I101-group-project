@@ -134,9 +134,14 @@ body.intro-page {
     font-weight: bold;
     margin-bottom: 30px;
 }
-
+.main-section-progress {
+    padding-left: 40px;
+    color: white;
+    background-color: #c8b26a;
+}
 .main-section {
     padding-left: 40px;
+    color: white;
 }
 
 /* Project Grid */
