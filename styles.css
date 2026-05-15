@@ -4,7 +4,7 @@
 
 /* ========== GLOBAL STYLES ========== */
 body {
-    background-color: #d7d1d1;
+    background-color: #c8b26a;
     font-family: Georgia, serif;
     margin: 0;
 }
@@ -12,20 +12,20 @@ body {
 /* Top bar */
 .top-bar {
     height: 90px;
-    background-color: #6b1f1f;
+    background-color: #708090;
 }
 
 /* ========== LIST/NAVIGATION STYLES ========== */
 li {
     list-style-type: none;
     width: 160px;
-    border: 1px solid #5b4a1c;
+    border: 1px solid #708090;
 }
 
 li a {
     display: block;
-    background-color: #c8b26a;
-    color: black;
+    background-color: #1a2b3c;
+    color: white;
     text-align: center;
     padding: 14px;
     text-decoration: none;
@@ -33,7 +33,7 @@ li a {
 }
 
 li a:hover {
-    background-color: #a8924f;
+    background-color: #36587b;
 }
 
 /* ========== INTRO/INDEX PAGE (Background image) ========== */
@@ -50,7 +50,7 @@ body.intro-page {
 .page-container {
     max-width: 900px;
     margin: 0 auto;
-    background-color: #b9afa6;
+    background-color: #c8b26a;
     padding: 0 24px 40px 24px;
     box-shadow: 0 2px 0 rgba(0,0,0,0.06) inset;
 }
@@ -67,7 +67,7 @@ body.intro-page {
     width: 90px;
     height: 90px;
     object-fit: cover;
-    border: 6px solid #7b2323;
+    border: 6px solid #1a2b3c;
     background: #fff;
 }
 
@@ -89,13 +89,13 @@ body.intro-page {
 }
 
 .nav-menu li {
-    border-bottom: 1px solid #5b4a1c;
+    border-bottom: 1px solid #1a2b3c;
     width: 90px;
 }
 
 .nav-menu a {
     display: block;
-    background-color: #c8b26a;
+    background-color: #1a2b3c;
     color: black;
     text-align: center;
     padding: 10px 6px;
@@ -105,14 +105,14 @@ body.intro-page {
 
 .nav-menu a.active,
 .nav-menu a:hover {
-    background-color: #a8924f;
+    background-color: #1a2b3c;
 }
 
 /* Info card style */
 .content-card {
-    background-color: #eeeeee;
+    background-color: #333333;
     padding: 18px 20px;
-    border: 6px solid #d0cdca;
+    border: 6px solid #626161;
     margin-bottom: 18px;
 }
 
@@ -149,10 +149,10 @@ body.intro-page {
 }
 
 .project-box {
-    background-color: #d7d1d1;
+    background-color: #666666;
     padding: 30px 20px;
     min-height: 120px;
-    border: 2px solid #5b4a1c;
+    border: 2px solid #333333;
     display: flex;
     flex-direction: column;
     justify-content: center;
@@ -174,7 +174,7 @@ body.intro-page {
 
 /* ========== TEAM PAGE STYLES ========== */
 .member-box {
-    background-color: #eeeeee;
+    background-color: #1a2b3c;
     padding: 10px 20px;
 }
 
@@ -194,10 +194,10 @@ body.intro-page {
     width: 95px;
     height: 110px;
     object-fit: cover;
-    border: 6px solid #7b2323;
+    border: 6px solid #1a2b3c;
 }
 
 /* ========== PROGRESS PAGE BACKGROUND ========== */
 body.progress-page {
-    background-color: #BEB7B5;
+    background-color: #c8b26a;
 }
