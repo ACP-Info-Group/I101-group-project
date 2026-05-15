@@ -1,58 +1,123 @@
-/* =====================================================
-   COMBINED STYLESHEET - All page styles unified
-   ===================================================== */
-
-/* ========== GLOBAL STYLES ========== */
+/* Global page styling */
+html,
 body {
-    background-color: #c8b26a;
+    min-height: 100%;
+}
+
+body {
+    margin: 0;
     font-family: Georgia, serif;
+    background: #c8b26a;
+    color: #1a2b3c;
+}
+
+body.intro-page {
+    min-height: 100vh;
+    background: url(images/kathrerineJohnsonPicture.jpg) center center / cover no-repeat fixed;
+    color: #fff;
+}
+
+body.page-bg,
+body.team-page,
+body.progress-page,
+body.innovator-page {
+    background: #c8b26a;
+}
+
+.top-bar {
+    height: 90px;
+    background: #708090;
+}
+
+.page-shell {
+    max-width: 1200px;
+    margin: 0 auto;
+    padding: 1.5rem;
+}
+
+.page-title {
+    font-size: clamp(2.5rem, 5vw, 3.75rem);
+    font-weight: 700;
+    margin: 0 0 1rem;
+    color: #1a2b3c;
+}
+
+.subtitle {
+    font-size: 1.25rem;
+    margin: 0;
+    color: #1a2b3c;
+}
+
+/* Shared navigation */
+.site-nav ul {
+    list-style: none;
+    padding: 0;
     margin: 0;
 }
 
-/* Top bar */
-.top-bar {
-    height: 90px;
-    background-color: #708090;
-}
-
-/* ========== LIST/NAVIGATION STYLES ========== */
-li {
-    list-style-type: none;
+.site-nav li {
     width: 160px;
     border: 1px solid #708090;
+    margin-bottom: 0.5rem;
 }
 
-li a {
+.site-nav a {
     display: block;
-    background-color: #1a2b3c;
-    color: white;
+    background: #1a2b3c;
+    color: #fff;
     text-align: center;
     padding: 14px;
     text-decoration: none;
     font-size: 20px;
 }
 
-li a:hover {
-    background-color: #36587b;
+.site-nav a:hover,
+.site-nav a.active {
+    background: #36587b;
 }
 
-/* ========== INTRO/INDEX PAGE (Background image) ========== */
-body.intro-page {
-    background-image: url(images/kathrerineJohnsonPicture.jpg);
-    background-size: cover;
-    background-position: center;
-    background-repeat: no-repeat;
-    background-attachment: fixed;
-    min-height: 100vh;
+/* Home page */
+.home-hero {
+    min-height: calc(100vh - 90px);
+    display: flex;
+    align-items: flex-start;
 }
 
-/* ========== INNOVATOR PAGE STYLES ========== */
+.hero-card {
+    max-width: 38rem;
+    margin-top: 2rem;
+    padding: 2rem;
+    background: rgba(26, 43, 60, 0.8);
+    color: #fff;
+    border: 1px solid rgba(255, 255, 255, 0.2);
+    backdrop-filter: blur(3px);
+}
+
+.hero-card h1 {
+    margin: 0 0 1rem;
+    font-size: clamp(3rem, 7vw, 5rem);
+    line-height: 1;
+}
+
+.hero-card p {
+    margin: 0 0 1rem;
+    line-height: 1.6;
+}
+
+.eyebrow {
+    letter-spacing: 0.12em;
+    text-transform: uppercase;
+    font-size: 0.8rem;
+    opacity: 0.85;
+}
+
+/* Innovator page */
 .page-container {
     max-width: 900px;
     margin: 0 auto;
-    background-color: #c8b26a;
-    padding: 0 24px 40px 24px;
-    box-shadow: 0 2px 0 rgba(0,0,0,0.06) inset;
+    background: #c8b26a;
+    padding: 0 24px 40px;
+    box-shadow: 0 2px 0 rgba(0, 0, 0, 0.06) inset;
 }
 
 .header-section {
@@ -61,6 +126,7 @@ body.intro-page {
 
 .header-content {
     align-items: center;
+    gap: 1rem;
 }
 
 .header-img {
@@ -73,78 +139,55 @@ body.intro-page {
 
 .title-area h1 {
     font-size: 36px;
-    margin: 0 0 6px 0;
+    margin: 0 0 6px;
     font-weight: bold;
 }
 
 .title-area h2 {
     font-size: 20px;
     margin: 0;
+    color: #1a2b3c;
 }
 
-/* Narrow vertical nav used on the innovator page */
-.nav-menu {
-    width: 90px;
-    padding: 0;
-}
-
-.nav-menu li {
-    border-bottom: 1px solid #1a2b3c;
-    width: 90px;
-}
-
-.nav-menu a {
-    display: block;
-    background-color: #1a2b3c;
-    color: white;
-    text-align: center;
-    padding: 10px 6px;
-    text-decoration: none;
-    font-size: 14px;
-}
-
-.nav-menu a.active,
-.nav-menu a:hover {
-    background-color: #1a2b3c;
-}
-
-/* Info card style */
 .content-card {
-    background-color: #333333;
+    background: #333;
+    color: #fff;
     padding: 18px 20px;
     border: 6px solid #626161;
     margin-bottom: 18px;
 }
 
 .content-card h2 {
-    font-size: 15px;
+    font-size: 1rem;
     font-weight: bold;
-    margin-bottom: 10px;
+    margin: 0 0 10px;
 }
 
 .content-card p {
-    font-size: 13px;
-    line-height: 1.18;
+    font-size: 0.95rem;
+    line-height: 1.45;
     text-indent: 18px;
 }
 
-/* ========== PROGRESS PAGE STYLES ========== */
-.page-title {
-    font-size: 52px;
-    font-weight: bold;
-    margin-bottom: 30px;
-}
-.main-section-progress {
-    padding-left: 40px;
-    color: white;
-    background-color: #c8b26a;
-}
-.main-section {
-    padding-left: 40px;
-    color: white;
+.references-cta {
+    text-align: center;
+    padding: 1rem 0 2rem;
 }
 
-/* Project Grid */
+.references-cta a {
+    display: inline-block;
+    background: #1a2b3c;
+    color: #fff;
+    padding: 12px 24px;
+    text-decoration: none;
+    border: 1px solid #708090;
+}
+
+.references-cta a:hover {
+    background: #36587b;
+}
+
+/* Progress page */
 .project-grid {
     margin-top: 20px;
 }
@@ -154,10 +197,11 @@ body.intro-page {
 }
 
 .project-box {
-    background-color: #666666;
+    background: #666;
+    color: #fff;
     padding: 30px 20px;
     min-height: 120px;
-    border: 2px solid #333333;
+    border: 2px solid #333;
     display: flex;
     flex-direction: column;
     justify-content: center;
@@ -166,20 +210,19 @@ body.intro-page {
 .project-box h3 {
     font-size: 20px;
     font-weight: bold;
-    margin: 0 0 10px 0;
-    color: white;
+    margin: 0 0 10px;
 }
 
 .project-box .status {
     font-size: 16px;
     margin: 0;
-    color: white;
     font-style: italic;
 }
 
-/* ========== TEAM PAGE STYLES ========== */
+/* Team page */
 .member-box {
-    background-color: #1a2b3c;
+    background: #1a2b3c;
+    color: #fff;
     padding: 10px 20px;
 }
 
@@ -194,7 +237,6 @@ body.intro-page {
     margin: 0;
 }
 
-/* Member image */
 .member-img {
     width: 95px;
     height: 110px;
@@ -202,7 +244,21 @@ body.intro-page {
     border: 6px solid #1a2b3c;
 }
 
-/* ========== PROGRESS PAGE BACKGROUND ========== */
-body.progress-page {
-    background-color: #c8b26a;
+@media (max-width: 767.98px) {
+    .site-nav li {
+        width: 100%;
+    }
+
+    .page-shell {
+        padding: 1rem;
+    }
+
+    .header-content {
+        justify-content: center;
+        text-align: center;
+    }
+
+    .title-area {
+        width: 100%;
+    }
 }
