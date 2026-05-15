@@ -96,7 +96,7 @@ body.intro-page {
 .nav-menu a {
     display: block;
     background-color: #1a2b3c;
-    color: black;
+    color: white;
     text-align: center;
     padding: 10px 6px;
     text-decoration: none;
@@ -162,13 +162,13 @@ body.intro-page {
     font-size: 20px;
     font-weight: bold;
     margin: 0 0 10px 0;
-    color: black;
+    color: white;
 }
 
 .project-box .status {
     font-size: 16px;
     margin: 0;
-    color: #666;
+    color: white;
     font-style: italic;
 }
 
