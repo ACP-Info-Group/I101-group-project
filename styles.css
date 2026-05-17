@@ -240,7 +240,7 @@ body.innovator-page {
 .member-img {
     width: 95px;
     height: 110px;
-    object-fit: cover;
+    object-fit: fill;
     border: 6px solid #1a2b3c;
 }
 
